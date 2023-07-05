@@ -1,0 +1,84 @@
+/* Selector universal */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('./fonts/BebasNeue-Regular.ttf');
+}
+
+
+/* Selector de etiqueta */
+h1 {
+    color: blue;
+    font-size: 50px;
+    font-family: 'Bebas';
+    
+   }
+P{
+    color: green;
+}   
+   
+span{
+    color: rgb(51, 255, 0);
+}
+
+/* Selector de clase .nombredeclase */
+
+.destacado{
+       font-weight: bold;
+       color: aqua;
+}
+
+.verde{
+    color: saddlebrown;
+}
+
+.lista{
+    color: red;
+}
+
+/* Selector por ID */
+
+#tabla{
+    border: 1px solid blueviolet;
+}
+
+/* Estilos del header */
+header.cabecera{
+   /* background-color: orange; */
+    width: 100%;
+    height: 500px;
+     background-image: url('../media/High_resolution_wallpaper_background_ID_77700397649.jpg');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+}
+
+
+.img-bana{
+    width: 500px;
+    height: 500px;
+
+}
+
+/* BOX MODEL */
+
+.box{
+    background-color: cornflowerblue;
+    height: 300px;
+    width: 300px;
+    border: 10px solid black;
+    padding-left: 10px;
+    padding: 20px 25px 30px 60px;
+    overflow: auto;
+    box-sizing: border-box;
+    margin: 10px 20px;
+    
+    
+}

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+body {
+    height: 100vh;
+    /* alto total de la ventana */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecera, .navbar, .seccion, .seccion2, .articulo, .pie {
+    padding: 10px;
+    border: 1px solid;
+}
+
+.grid {
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px 120px; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 140px 40px repeat(2, 230px);
+    row-gap: 10px;
+    column-gap: 5px;
+}
